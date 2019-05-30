@@ -1,0 +1,12 @@
+# To find odd or even no.
+var=1
+num = int(input("enter a number:"))
+print("you entered No.:", num)
+check= int(input("Divide by"))
+print("divided by:", check)
+if num % 4 == 0:
+    print("Multiple of 4")
+elif num % 2 == 0:
+    print("An Even Number")
+else:
+    print("An Odd Number")
